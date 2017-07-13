@@ -156,6 +156,12 @@
     [self.pageControl setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
 }
 
+- (void)layoutSubviews {
+    [super layoutSubviews];
+    
+    [self reloadData];
+}
+
 #pragma mark - Actions
 
 - (void)imageViewTapped:(UIGestureRecognizer *)gestureRecognizer {

@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    CYImageInfiniteSlideView *slideView = [[CYImageInfiniteSlideView alloc] initWithFrame:CGRectMake(0.0, 0.0, [UIScreen mainScreen].bounds.size.width, 150.0) dataSource:self delegate:self];
+    CYImageInfiniteSlideView *slideView = [[CYImageInfiniteSlideView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width, 150.0) dataSource:self delegate:self];
     slideView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     [self.view addSubview:slideView];
     
