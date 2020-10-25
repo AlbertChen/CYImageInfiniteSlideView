@@ -14,10 +14,8 @@
 		DEC1E4301EB1E89900A92989 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEC1E4251EB1E89900A92989 /* image1.jpeg */; };
 		DEC1E4311EB1E89900A92989 /* image2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEC1E4261EB1E89900A92989 /* image2.jpeg */; };
 		DEC1E4321EB1E89900A92989 /* image3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DEC1E4271EB1E89900A92989 /* image3.jpeg */; };
-		DEC1E4331EB1E89900A92989 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEC1E4281EB1E89900A92989 /* Info.plist */; };
 		DEC1E4341EB1E89900A92989 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC1E4291EB1E89900A92989 /* main.m */; };
 		DEC1E4351EB1E89900A92989 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC1E42B1EB1E89900A92989 /* ViewController.m */; };
-		DEC1E43A1EB1F8A300A92989 /* CYImageInfiniteSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC1E4391EB1F8A300A92989 /* CYImageInfiniteSlideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +35,6 @@
 		DEC1E4291EB1E89900A92989 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DEC1E42A1EB1E89900A92989 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DEC1E42B1EB1E89900A92989 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DEC1E4381EB1F8A300A92989 /* CYImageInfiniteSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYImageInfiniteSlideView.h; sourceTree = "<group>"; };
-		DEC1E4391EB1F8A300A92989 /* CYImageInfiniteSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYImageInfiniteSlideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +88,6 @@
 		DEC1E41A1EB1E89900A92989 /* ImageInfiniteSlideViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DEC1E4371EB1F8A300A92989 /* CYImageInfiniteSlideView */,
 				DEC1E41B1EB1E89900A92989 /* AppDelegate.h */,
 				DEC1E41C1EB1E89900A92989 /* AppDelegate.m */,
 				DEC1E42A1EB1E89900A92989 /* ViewController.h */,
@@ -124,15 +119,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DEC1E4371EB1F8A300A92989 /* CYImageInfiniteSlideView */ = {
-			isa = PBXGroup;
-			children = (
-				DEC1E4381EB1F8A300A92989 /* CYImageInfiniteSlideView.h */,
-				DEC1E4391EB1F8A300A92989 /* CYImageInfiniteSlideView.m */,
-			);
-			path = CYImageInfiniteSlideView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,8 +130,6 @@
 				DE72D0D61EB09B3F007D59DE /* Sources */,
 				DE72D0D71EB09B3F007D59DE /* Frameworks */,
 				DE72D0D81EB09B3F007D59DE /* Resources */,
-				D43E362A309B8DEB96078D92 /* [CP] Embed Pods Frameworks */,
-				E712419C98CA8830E05EA5D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,7 +146,7 @@
 		DE72D0D21EB09B3F007D59DE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = CYYUN;
 				TargetAttributes = {
 					DE72D0D91EB09B3F007D59DE = {
@@ -174,7 +158,7 @@
 			};
 			buildConfigurationList = DE72D0D51EB09B3F007D59DE /* Build configuration list for PBXProject "ImageInfiniteSlideViewDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -199,7 +183,6 @@
 				DEC1E4301EB1E89900A92989 /* image1.jpeg in Resources */,
 				DEC1E4311EB1E89900A92989 /* image2.jpeg in Resources */,
 				DEC1E42D1EB1E89900A92989 /* LaunchScreen.storyboard in Resources */,
-				DEC1E4331EB1E89900A92989 /* Info.plist in Resources */,
 				DEC1E4321EB1E89900A92989 /* image3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,49 +190,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D43E362A309B8DEB96078D92 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageInfiniteSlideViewDemo/Pods-ImageInfiniteSlideViewDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E712419C98CA8830E05EA5D1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageInfiniteSlideViewDemo/Pods-ImageInfiniteSlideViewDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FE8625571760243138EC65A9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageInfiniteSlideViewDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -261,7 +217,6 @@
 			files = (
 				DEC1E4351EB1E89900A92989 /* ViewController.m in Sources */,
 				DEC1E42C1EB1E89900A92989 /* AppDelegate.m in Sources */,
-				DEC1E43A1EB1F8A300A92989 /* CYImageInfiniteSlideView.m in Sources */,
 				DEC1E4341EB1E89900A92989 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,20 +247,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -339,20 +304,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

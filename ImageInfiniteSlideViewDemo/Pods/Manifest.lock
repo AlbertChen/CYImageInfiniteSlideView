@@ -1,14 +1,25 @@
 PODS:
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - CYImageInfiniteSlideView (0.0.1):
+    - SDWebImage (~> 4.0)
+  - SDWebImage (4.4.8):
+    - SDWebImage/Core (= 4.4.8)
+  - SDWebImage/Core (4.4.8)
 
 DEPENDENCIES:
-  - SDWebImage (~> 4.0.0)
+  - CYImageInfiniteSlideView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  CYImageInfiniteSlideView:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  CYImageInfiniteSlideView: 1c7ae1439b34e8259f9ee4bc0bfa322cbd1967e5
+  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
 
-PODFILE CHECKSUM: 56cfcca02eafd39acc474ef43f496778cfad4869
+PODFILE CHECKSUM: 13b42447a619291160a4f998caede284b195f768
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.9.1
