@@ -181,7 +181,7 @@
         NSURL *url = [self.dataSource imageInfiniteSlideView:self imageURLAtPage:index];
         // TODO: Download image...
         UIImage *placeholderImage = nil;
-        if ([self.delegate placeholderImageInImageSlideView:self]) {
+        if ([self.delegate respondsToSelector:@selector(placeholderImageInImageSlideView:)]) {
             placeholderImage = [self.delegate placeholderImageInImageSlideView:self];
         }
         [imageView sd_setImageWithURL:url placeholderImage:placeholderImage];
